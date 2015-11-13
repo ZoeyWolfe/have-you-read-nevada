@@ -2,7 +2,7 @@
 title: Have you read Nevada?
 email: your-email@domain.com
 description: "For all the James H's out there"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/have-you-read-nevada" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
