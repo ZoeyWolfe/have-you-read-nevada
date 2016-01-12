@@ -1,0 +1,82 @@
+$background-color: #272727;
+$light-color: #DDD;
+$screen-sm-min: 768px;
+
+body {
+  background-color: $background-color;
+  color: $light-color;
+}
+
+h1 {
+  font-size: 35pt;
+  margin: 60px auto;
+  max-width: 285px;
+  text-align: center;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 60pt;
+    margin: 160px 0 120px;
+    max-width: 100%;
+  }
+}
+
+.links {
+  margin: 60px 0;
+  text-align: center;
+
+  @media (min-width: $screen-sm-min) {
+    margin: 120px 0;
+  }
+
+  a {
+    background-color: $light-color;
+    box-shadow: inset 0 0 0 3px rgba($background-color, .3);
+    color: $background-color;
+    display: block;
+    font-size: 15pt;
+    margin: 20px auto;
+    max-width: 150px;
+    padding: 15px;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+
+    @media (min-width: $screen-sm-min) {
+      box-shadow: none;
+      display: inline;
+      margin: 15px;
+    }
+
+    &:hover {
+      box-shadow: inset 0 0 0 3px rgba($background-color, .3);
+      transition: box-shadow .2s ease-in-out;
+    }
+  }
+}
+
+.disclaimer {
+  font-size: 14pt;
+  line-height: 1.3;
+  margin: 40px auto;
+  max-width: 260px;
+
+  @media (min-width: $screen-sm-min) {
+    margin: 100px auto;
+    max-width: 600px;
+  }
+
+  a {
+    color: $light-color;
+  }
+}
+
+.credits {
+  font-size: 11pt;
+  margin: 40px 0;
+  text-align: center;
+
+  a {
+    color: $light-color;
+    display: block;
+    margin: 5px;
+  }
+}
