@@ -15,18 +15,25 @@ h1 {
 
   @media (min-width: $screen-sm-min) {
     font-size: 60pt;
-    margin: 160px 0 120px;
+    margin: 100px 0 75px;
     max-width: 100%;
   }
 }
 
-.links {
+.purchase,
+.download {
+  font-size: 22pt;
+  line-height: 2.5;
   margin: 60px 0;
   text-align: center;
 
   @media (min-width: $screen-sm-min) {
-    margin: 120px 0;
+    margin: 70px 0;
   }
+}
+
+.links {
+  text-align: center;
 
   a {
     background-color: $light-color;

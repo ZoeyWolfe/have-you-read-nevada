@@ -1,18 +1,33 @@
-%h1 Read Nevada, You Sissy
+%h1 No Actually, Read Nevada
 
-.links
-  = link_to 'Nevada.pdf', 'nevada.pdf', download: 'nevada'
-  = link_to 'Nevada.epub', 'nevada.epub', download: 'nevada.epub'
-  = link_to 'Nevada.mobi', 'nevada-mobi.zip', download: 'nevada-mobi.zip'
+.purchase
+  purchase a physical copy
+
+  .links
+    = link_to 'Amazon.com',
+      'http://www.amazon.com/Nevada-Imogen-Binnie/dp/0983242232/',
+      target: '_blank'
+    = link_to 'Topside Press',
+      'http://store.topsidepress.com/shop/nevada-in-paperback/',
+      target: '_blank'
+
+.download
+  = "...or download a digital one"
+
+  .links
+    = link_to 'Nevada.pdf', 'nevada.pdf', download: 'nevada'
+    = link_to 'Nevada.epub', 'nevada.epub', download: 'nevada.epub'
+    = link_to 'Nevada.mobi', 'nevada-mobi.zip', download: 'nevada-mobi.zip'
 
 .disclaimer
   This site is unaffiliated with Topside Press, and is intended to simplify the
-  process of sharing this book with the James H's in your life. Please
-  = link_to 'buy a copy of this book',
-    'http://store.topsidepress.com/shop/nevada-in-paperback/'
-  or at the very least send a nice tweet to the wonderful author of this book,
-  = link_to 'Imogen Binnie', 'https://twitter.com/imogenbinnie'
+  process of sharing this book with the James H's in your life. Please buy a
+  copy of this book, or at the very least send a nice tweet to the wonderful
+  author,
+  = link_to 'Imogen Binnie', 'https://twitter.com/imogenbinnie',
+    target: '_blank'
 
 .credits
-  = link_to '@TheBinarium', 'https://twitter.com/TheBinarium'
-  = link_to 'source', 'https://github.com/EpicH0liday/have-you-read-nevada'
+  = link_to '@TheBinarium', 'https://twitter.com/TheBinarium', target: '_blank'
+  = link_to 'source', 'https://github.com/EpicH0liday/have-you-read-nevada',
+    target: '_blank'
